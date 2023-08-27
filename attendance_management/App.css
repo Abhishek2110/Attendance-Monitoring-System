@@ -1,0 +1,53 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.App h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Styling for MarkAttendance component */
+.mark-attendance-container {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Styling for StudentList component */
+.student-list-container {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.student-list-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.student-list {
+  list-style: none;
+  padding: 0;
+}
+
+.student-list-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  transition: background-color 0.2s;
+}
+
+.student-list-item:last-child {
+  border-bottom: none;
+}
+
+.student-list-item:hover {
+  background-color: #e0e0e0;
+}
